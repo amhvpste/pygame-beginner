@@ -17,19 +17,34 @@ text_surface = myfont.render('My Game', False, (255, 0, 0))
 # Завантаження зображення фону
 bg = pygame.image.load('images/background.jpg')
 
+# walk_right = [
+#     pygame.image.load('images/player/right/player_walk_r1.png'),
+#     pygame.image.load('images/player/right/player_walk_r2.png'),
+#     pygame.image.load('images/player/right/player_walk_r3.png'),
+#     pygame.image.load('images/player/right/player_walk_r4.png')
+# ]
+
+# walk_left = [
+#     pygame.image.load('images/player/left/player_walk_l1.png'),
+#     pygame.image.load('images/player/left/player_walk_l2.png'),
+#     pygame.image.load('images/player/left/player_walk_l3.png'),
+#     pygame.image.load('images/player/left/player_walk_l4.png')
+# ]
+
 walk_right = [
-    pygame.image.load('images/player/right/player_walk_r1.png'),
-    pygame.image.load('images/player/right/player_walk_r2.png'),
-    pygame.image.load('images/player/right/player_walk_r3.png'),
-    pygame.image.load('images/player/right/player_walk_r4.png')
+    pygame.image.load('images/player/right/frame_00.png'),
+    pygame.image.load('images/player/right/frame_01.png'),
+    pygame.image.load('images/player/right/frame_02.png'),
+    pygame.image.load('images/player/right/frame_03.png')
 ]
 
 walk_left = [
-    pygame.image.load('images/player/left/player_walk_l1.png'),
-    pygame.image.load('images/player/left/player_walk_l2.png'),
-    pygame.image.load('images/player/left/player_walk_l3.png'),
-    pygame.image.load('images/player/left/player_walk_l4.png')
+    pygame.image.load('images/player/left/frame_04.png'),
+    pygame.image.load('images/player/left/frame_05.png'),
+    pygame.image.load('images/player/left/frame_06.png'),
+    pygame.image.load('images/player/left/frame_07.png')
 ]
+
 
 player_anim_count = 0
 bg_x = 0
